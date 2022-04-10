@@ -127,6 +127,8 @@ namespace lesson5_08._04
             {
                 writer.WriteLine(gamer.ToString());
             }
+            Rating rating = new Rating();
+            rating.Show();
         }
     }
 }
